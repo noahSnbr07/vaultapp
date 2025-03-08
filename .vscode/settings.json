@@ -1,0 +1,16 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "driver": "PostgreSQL",
+            "name": "vaultapp",
+            "username": "root",
+            "database": "postgres",
+            "connectString": "postgresql://postgres.hvsojketdwkyxwxgmnmc:wTa1wg7chHlTresc@aws-0-eu-central-1.pooler.supabase.com:6543/postgres?pgbouncer=true"
+        }
+    ],
+    "cSpell.words": [
+        "Supabase"
+    ]
+}
