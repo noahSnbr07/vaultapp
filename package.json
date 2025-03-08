@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "postinstall": "npx prisma generate"
+    "postinstall --- REENABLE ON SYNCING REMOTE": "npx prisma generate"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.1.2",
