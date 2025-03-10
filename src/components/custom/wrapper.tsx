@@ -29,7 +29,8 @@ export default function Wrapper({ sidebarHidden, children, headerContent, classN
                     Sidebar
                 </Sidebar>
 
-                <ResizableHandle className="bg-accent w-1" />
+                {/* hide resize handle if there is no second panel */}
+                {!sidebarHidden && <ResizableHandle className="bg-accent w-1" />}
 
                 <Main className={className}>
                     {children}
