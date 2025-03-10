@@ -7,6 +7,11 @@ export interface ContentProps {
     fullWIdth?: boolean;
 }
 
+/**
+ * 
+ * @param children main rendered content
+ * @returns page content wrapper
+ */
 export default function Content({ children, /*fullWIdth = false, */ }: ContentProps): React.JSX.Element {
 
     return (

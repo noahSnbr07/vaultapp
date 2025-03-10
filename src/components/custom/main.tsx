@@ -7,6 +7,12 @@ export interface MainProps {
     className?: string;
 }
 
+/**
+ * 
+ * @param children page content
+ * @param fullWIdth weather the page should be capped at 1280px
+ * @returns page content
+ */
 export default function Main({ children, fullWIdth, className, }: MainProps): React.JSX.Element {
 
     return (

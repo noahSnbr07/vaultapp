@@ -5,6 +5,12 @@ export interface HeaderProps {
     fullWIdth?: boolean;
 }
 
+/**
+ * 
+ * @param children headers content, raw
+ * @param fullWIdth weather content should be capped at 1280px
+ * @returns flexbox header to show important links and connections
+ */
 export default function Header({ children, fullWIdth, }: HeaderProps): React.JSX.Element {
 
     return (

@@ -5,12 +5,20 @@ import Sidebar from "./sidebar";
 import { ResizableHandle, ResizablePanelGroup } from "../ui/resizable";
 
 interface WrapperProps {
-    sidebarHidden?: boolean;
+    sidebarHidden?: boolean;            //toggle sidebar visibility
+    headerFullWidth?: boolean;
     children: React.ReactNode;
     headerContent: React.ReactNode;
-    headerFullWidth?: boolean;
-    className?: string;
+    className?: string;                 //classname applies to main component
 }
+
+/**
+ * 
+ * @param children rendered side content
+ * @param headerContent rendered header content
+ * @returns wrapper component to display content
+ * @description must be used to wrap each page of a route
+ */
 
 export default function Wrapper({ sidebarHidden, children, headerContent, className }: WrapperProps): React.JSX.Element {
 
@@ -32,6 +40,7 @@ export default function Wrapper({ sidebarHidden, children, headerContent, classN
                 {/* hide resize handle if there is no second panel */}
                 {!sidebarHidden && <ResizableHandle className="bg-accent w-1" />}
 
+                { /* main content display, takes classname */}
                 <Main className={className}>
                     {children}
                 </Main>

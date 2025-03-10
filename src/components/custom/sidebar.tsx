@@ -6,6 +6,12 @@ export interface SidebarProps {
     hidden?: boolean;
 }
 
+/**
+ * 
+ * @param children sidebar raw content
+ * @param hidden weather sidebar is rendered or not
+ * @returns resizable sidebar to access tools & links
+ */
 export default function Sidebar({ children, hidden, }: SidebarProps): React.JSX.Element {
 
     if (hidden) return <></>;
