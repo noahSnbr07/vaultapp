@@ -4,7 +4,7 @@ import React from 'react';
 import ContentSection from '../components/content/content-section';
 import FillerSection from '../components/filler/filler-section';
 
-export default async function page({ params }: { params: { method: "login" | "register" } }) {
+export default async function page({ params }: { params: Promise<{ method: "login" | "register" }> }) {
 
     //retrieve params
     const { method } = await params;
