@@ -9,6 +9,7 @@ const links: IndexLink[] = [
     { id: 1, href: "/contact", title: "Contact" },
     { id: 2, href: "/changelog", title: "Changelog" },
     { id: 3, href: "/repository", title: "Repository" },
+    { id: 4, href: "/authentication/login", title: "Authentication" },
 ]
 
 export default links;

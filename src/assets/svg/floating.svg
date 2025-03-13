@@ -1,0 +1,177 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
+    <defs>
+        <symbol id="triangle" viewBox="0 0 100 100">
+            <polygon
+                points="50,0 100,100 0,100"
+                fill="white"
+                opacity=".1"
+            />
+        </symbol>
+    </defs>
+    <g>
+        <use href="#triangle" x="50" y="400" width="40" height="40">
+            <animateTransform
+                attributeName="transform"
+                type="translate"
+                from="0,100"
+                to="0,-500"
+                dur="6s"
+                repeatCount="indefinite"
+            />
+        </use>
+        <use href="#triangle"
+            x="150" y="450" width="60" height="60">
+            <animateTransform
+                attributeName="transform"
+                type="translate"
+                from="0,100"
+                to="0,-500"
+                dur="8s"
+                repeatCount="indefinite"
+            />
+        </use>
+        <use href="#triangle"
+            x="250" y="420" width="30" height="30">
+            <animateTransform
+                attributeName="transform"
+                type="translate"
+                from="0,100"
+                to="0,-500"
+                dur="5s"
+                repeatCount="indefinite"
+            />
+        </use>
+        <use href="#triangle"
+            x="350" y="460" width="50" height="50">
+            <animateTransform
+                attributeName="transform"
+                type="translate"
+                from="0,100"
+                to="0,-500"
+                dur="7s"
+                repeatCount="indefinite"
+            />
+        </use>
+        <use href="#triangle"
+            x="420" y="430" width="35" height="35">
+            <animateTransform
+                attributeName="transform"
+                type="translate"
+                from="0,100"
+                to="0,-500"
+                dur="6.5s"
+                repeatCount="indefinite"
+            />
+        </use>
+        <use href="#triangle"
+            x="80" y="380" width="55" height="55">
+            <animateTransform
+                attributeName="transform"
+                type="translate"
+                from="0,100"
+                to="0,-500"
+                dur="5.5s"
+                repeatCount="indefinite"
+            />
+        </use>
+        <use href="#triangle"
+            x="180" y="440" width="45" height="45">
+            <animateTransform
+                attributeName="transform"
+                type="translate"
+                from="0,100"
+                to="0,-500"
+                dur="7s"
+                repeatCount="indefinite"
+            />
+        </use>
+        <use href="#triangle"
+            x="270" y="410" width="25" height="25">
+            <animateTransform
+                attributeName="transform"
+                type="translate"
+                from="0,100"
+                to="0,-500"
+                dur="6s"
+                repeatCount="indefinite"
+            />
+        </use>
+        <use href="#triangle"
+            x="380" y="460" width="60" height="60">
+            <animateTransform
+                attributeName="transform"
+                type="translate"
+                from="0,100"
+                to="0,-500"
+                dur="8s"
+                repeatCount="indefinite"
+            />
+        </use>
+        <use href="#triangle"
+            x="50" y="350" width="40" height="40">
+            <animateTransform
+                attributeName="transform"
+                type="translate"
+                from="0,100"
+                to="0,-500"
+                dur="9s"
+                repeatCount="indefinite"
+            />
+        </use>
+        <use href="#triangle"
+            x="160" y="380" width="55" height="55">
+            <animateTransform
+                attributeName="transform"
+                type="translate"
+                from="0,100"
+                to="0,-500"
+                dur="7.5s"
+                repeatCount="indefinite"
+            />
+        </use>
+        <use href="#triangle"
+            x="240" y="430" width="50" height="50">
+            <animateTransform
+                attributeName="transform"
+                type="translate"
+                from="0,100"
+                to="0,-500"
+                dur="6.5s"
+                repeatCount="indefinite"
+            />
+        </use>
+        <use href="#triangle"
+            x="330" y="400" width="30" height="30">
+            <animateTransform
+                attributeName="transform"
+                type="translate"
+                from="0,100"
+                to="0,-500"
+                dur="8.5s"
+                repeatCount="indefinite"
+            />
+        </use>
+        <use href="#triangle"
+            x="420" y="380" width="35" height="35">
+            <animateTransform
+                attributeName="transform"
+                type="translate"
+                from="0,100"
+                to="0,-500"
+                dur="7.5s"
+                repeatCount="indefinite"
+            />
+        </use>
+        <use href="#triangle"
+            x="90" y="450" width="60" height="60">
+            <animateTransform
+                attributeName="transform"
+                type="translate"
+                from="0,100"
+                to="0,-500"
+                dur="9s"
+                repeatCount="indefinite"
+            />
+        </use>
+    </g>
+</svg>
