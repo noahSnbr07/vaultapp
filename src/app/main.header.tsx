@@ -13,15 +13,16 @@ export default function HeaderContent() {
             <Link
                 href={"/"}>
                 <Image
+                    className="object-fill"
+                    height={40}
                     src={banner}
-                    height={32}
                     alt="VaultApp Banner"
                     title="VaultApp Banner" />
             </Link>
 
             <Dropdown />
 
-            <div className="w-fill bg-accent py-2 px-8 rounded-full hidden md:flex gap-8">
+            <div className="w-fill border-accent border-2 py-2 px-8 rounded-full hidden lg:flex gap-8">
                 {links.map((link: IndexLink) =>
                     <Link
                         className="hover:opacity-50 text-accent-foreground transition-all font-bold"
@@ -32,8 +33,10 @@ export default function HeaderContent() {
                 )
                 }
             </div>
-            <Link href={"/dashboard"}>
-                <Button className="font-bold cursor-pointer" size={"sm"}>
+            <Link
+                className="h-10"
+                href={"/dashboard"}>
+                <Button className="font-bold cursor-pointer" size={"lg"}>
                     Dashboard
                 </Button>
             </Link>

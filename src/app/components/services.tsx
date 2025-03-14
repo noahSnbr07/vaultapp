@@ -9,13 +9,13 @@ export default function Services() {
             {/* map over services and display cards */}
             {services.map((service: ServiceProps) => (
                 <Card key={service.id}>
+                    <CardContent>
+                        {service.icon}
+                    </CardContent>
                     <CardHeader>
                         <CardTitle>{service.title}</CardTitle>
                         <CardDescription>{service.description}</CardDescription>
                     </CardHeader>
-                    <CardContent>
-                        {service.icon}
-                    </CardContent>
                 </Card>
             ))}
         </div>
