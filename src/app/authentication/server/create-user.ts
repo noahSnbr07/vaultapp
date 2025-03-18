@@ -1,7 +1,5 @@
 "use server";
 
-import ActionRespose from "@/app/types/ActionResponse";
-
 /**
  * @param formData: FormData
  */
